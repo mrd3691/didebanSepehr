@@ -30,15 +30,7 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-# Keep build intermediates ignored; track only the release APK.
-/build/*
-!/build/app/
-/build/app/*
-!/build/app/outputs/
-/build/app/outputs/*
-!/build/app/outputs/flutter-apk/
-/build/app/outputs/flutter-apk/*
-!/build/app/outputs/flutter-apk/app-release.apk
+/build/
 /coverage/
 
 # Symbolication related
