@@ -1,0 +1,25 @@
+name: dideban_sepehr
+description: Live fleet monitoring and route playback for Dideban Sepehr.
+publish_to: none
+version: 1.0.3+4
+environment:
+  sdk: ^3.10.4
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  flutter_secure_storage: ^9.2.2
+  shamsi_date: ^1.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/OFL-Roboto.txt
+  fonts:
+    - family: SepehrSans
+      fonts:
+        - asset: assets/fonts/Roboto.ttf
